@@ -1,0 +1,433 @@
+.nav {
+    background: url("http://demo.kangjingept.com:8020/cssthemes6/1125zh1/static/picture/1-1Z10G016130-L.jpg");
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav>div:nth-child(1) div {
+    line-height: 50px;
+}
+
+
+/* iconcss */
+
+.logo {
+    margin: 43px 0;
+    width: 100%;
+}
+
+
+/* iconcss */
+
+
+/* 导航栏css */
+
+.nice div {
+    margin: 63px 0;
+    padding: 0 20px;
+    color: #ffffff;
+    font-size: 1.5em;
+    height: 50px;
+    transition: 2s all;
+}
+
+.nice div>span:hover::after {
+    content: "";
+    width: 10px;
+    height: 1px;
+    display: block;
+    background: #ffffff;
+    position: relative;
+    top: -26px;
+    left: -15px;
+}
+
+.nice div>span:hover::before {
+    content: "";
+    width: 10px;
+    height: 1px;
+    display: block;
+    background: #ffffff;
+    position: relative;
+    top: 24px;
+    left: 101px;
+}
+
+.nice>div:nth-child(1)>span:hover::before {
+    content: "";
+    width: 10px;
+    height: 1px;
+    display: block;
+    background: #ffffff;
+    position: relative;
+    top: 24px;
+    left: 52px;
+}
+
+.nice>div:nth-child(4)>span:hover::before {
+    content: "";
+    width: 10px;
+    height: 1px;
+    display: block;
+    background: #ffffff;
+    position: relative;
+    top: 24px;
+    left: 123px;
+}
+
+
+/* 导航栏css */
+
+
+/* 首页搜索框 */
+
+.nav>div:nth-child(1)>div:nth-child(3) {
+    margin: 64px 0;
+    border: 1px solid #cccccc;
+    height: 50px;
+}
+
+.nav input[type="text"] {
+    padding: 0 10px;
+    font-size: 1.3em;
+    position: relative;
+    top: -21px;
+    width: 300px;
+    height: 100%;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.nav input[type="submit"] {
+    background: url("http://demo.kangjingept.com:8020/cssthemes6/1125zh1/static/image/search.png") no-repeat;
+    width: 40px;
+    height: 100%;
+    outline: none;
+    background-size: 30px;
+    background-position: 0 6px;
+}
+
+
+/* 首页搜索框 */
+
+
+/* 导航栏添加下拉css */
+
+ol {
+    list-style-type: none;
+    text-align: center;
+    font-size: 0.8em;
+    width: 100%;
+    height: 0;
+    background-color: rgb(24, 26, 26);
+    overflow: hidden;
+    transition: .5s all;
+}
+
+ol>li:nth-child(1)::before {
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+}
+
+.zhuti>span:hover+ol {
+    overflow: visible;
+    height: 100px;
+}
+
+.shure>span:hover+ol {
+    overflow: visible;
+    height: 150px;
+}
+
+
+/* 导航栏添加下拉css */
+
+
+/* 首页头部左下角 */
+
+.d {
+    width: 300px;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.d>.num {
+    width: 100px;
+    height: 100%;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: -3px;
+    color: #999999;
+}
+
+.blue {
+    color: #00acfa;
+}
+
+.str {
+    font-size: 2em;
+    position: relative;
+    top: 5px;
+}
+
+.font-2em {
+    font-size: 2em;
+}
+
+.down {
+    position: relative;
+    top: 17px;
+}
+
+.jiantou {
+    position: absolute;
+    left: 300px;
+    bottom: 0;
+    font-size: 3em;
+    color: red;
+    line-height: 100px;
+    filter: brightness(118%)
+}
+
+.yuandian {
+    width: 10px;
+    height: 10px;
+    background-color: #00acfa;
+    margin: auto 0;
+    border-radius: 5px;
+}
+
+
+/* 首页头部左下角 */
+
+
+/* 中间 */
+
+.hui {
+    background-color: #00acfa;
+    width: 1300px;
+    height: 860px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner {
+    left: 15.1%;
+    top: 7%;
+    height: 700px;
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bac {
+    text-align: left !important;
+    color: #ffffff;
+}
+
+.bac div {
+    margin: 58px 0 0 0;
+    width: 100%;
+    height: 100px;
+    line-height: 35px;
+}
+
+.banner div img {
+    width: 100%;
+}
+
+.banner>div {
+    width: 347px;
+    height: 347px;
+    background-color: #00acfa;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.dis {
+    line-height: 229px;
+    color: #00acfa;
+    font-size: 1.2em;
+    position: relative;
+}
+
+.dis em {
+    background: url("http://demo.kangjingept.com:8020/cssthemes6/1125zh1/static/image/jiantou.png") no-repeat;
+    display: block;
+    background-size: 100%;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    margin-left: -24px;
+    transition: 1s all;
+}
+
+.dis em:hover {
+    background: url("http://demo.kangjingept.com:8020/cssthemes6/1125zh1/static/image/jiantouh.png") no-repeat;
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-size: 100%;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    margin-left: -24px;
+}
+
+.hei {
+    width: 300px;
+    height: 300px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 21px;
+    left: 25px;
+    animation: hei 0.5s;
+}
+
+.banner>div img:hover+.hei {
+    display: block;
+}
+
+.hei:hover {
+    display: block;
+}
+
+.hei h2 {
+    color: #ffffff;
+    margin: 20px;
+    position: absolute;
+    top: 34%;
+}
+
+@keyframes hei {
+    from {
+        top: 21px;
+        left: -325px;
+    }
+    to {
+        top: 21px;
+        left: 25px;
+    }
+}
+
+
+/* banner */
+
+.bei1 {
+    background: url("http://demo.kangjingept.com:8020/cssthemes6/1125zh1/static/image/s2bg.jpg") no-repeat;
+    background-size: 100% 1267px;
+    width: 100%;
+    height: 1267px;
+}
+
+.about {
+    width: 1000px;
+    text-align: left;
+    line-height: 45px;
+    position: absolute;
+    top: 199px;
+    left: 300px;
+    color: #00acfa;
+}
+
+.about>div:nth-child(1) {
+    color: #ffffff;
+}
+
+.about>.dis {
+    position: absolute;
+    top: 91px;
+    left: 16px;
+    animation: 1s infinite piao1 alternate;
+}
+
+@keyframes piao1 {
+    from {
+        left: 16px;
+        top: 85px;
+    }
+    to {
+        left: 16px;
+        top: 95px
+    }
+}
+
+.about+div {
+    width: 1400px;
+    height: 730px;
+    position: absolute;
+    top: 538px;
+    left: 295px;
+}
+
+.about+div img {
+    width: 100%;
+}
+
+.about+div em {
+    height: 100%;
+    width: 232px;
+    background-color: rgba(0, 172, 250, 0.5);
+    position: absolute;
+    right: 0px;
+}
+
+
+/* 主题旅游 */
+
+.color-w {
+    color: #ffffff;
+    padding: 100px 0 0 0;
+}
+
+.color-w>h1 {
+    color: #00acfa;
+}
+
+.color-w>h1::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 63px;
+    background: #00acfa;
+    left: 50%;
+    position: relative;
+    bottom: 0;
+    margin: 20px 0 0 0;
+}
+
+.text-al-cent {
+    text-align: center;
+}
+
+.lv {
+    height: 259px;
+}
+
+.menban {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    transition: 1s all;
+}
+
+.menban:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
