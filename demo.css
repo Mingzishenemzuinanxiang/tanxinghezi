@@ -431,3 +431,423 @@ ol>li:nth-child(1)::before {
 .menban:hover {
     background-color: rgba(0, 0, 0, 0);
 }
+
+.zhonhjian {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    top: 45%;
+    left: 45%;
+    color: #ffffff;
+    transition: 2s all;
+}
+
+.menban:hover>.zhonhjian {
+    display: none;
+}
+
+.er {
+    overflow: hidden;
+}
+
+.er:hover a {
+    color: black;
+}
+
+.er:hover>.title {
+    display: block;
+}
+
+.er:hover::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 200px;
+    background-color: #FFFF;
+    position: absolute;
+    left: 49.99%;
+    z-index: 99;
+}
+
+.er:hover::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 200px;
+    background-color: #FFFF;
+    position: absolute;
+    left: 49.99%;
+    z-index: 99;
+    bottom: 0;
+}
+
+.er:hover>img:nth-child(1) {
+    transform: scale(1.1);
+    transition: 1s all;
+}
+
+.title {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    top: 30%;
+    left: 45%;
+    display: none;
+    transition: all 1s;
+    line-height: 45px;
+}
+
+.title a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 60px;
+    position: relative;
+    top: 67px;
+    background-color: #ffffff;
+}
+
+
+/* 新闻资讯 */
+
+.newtitle>h1 {
+    color: #00acfa;
+}
+
+.newtitle::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 10px;
+    background-color: #00acfa;
+    position: absolute;
+    left: 49.5%;
+}
+
+.wenzhang {
+    bottom: 0;
+    margin-left: 53px;
+    margin-bottom: -22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.neirong {
+    width: 440px;
+    height: 150px;
+}
+
+.neirong h2 {
+    font-size: 16px;
+}
+
+.neirong h2::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 5px;
+    background-color: #00acfa;
+    transition: 1s all;
+}
+
+.neirong h2::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    position: absolute;
+    top: 25px;
+}
+
+.newimgs {
+    width: 1300px;
+}
+
+.newimgs:hover .wenzhang h2 {
+    color: #00acfa;
+}
+
+.imgkuang {
+    width: 600px;
+    height: 600px;
+}
+
+.imgkuang:hover .wenzhang h2::after {
+    width: 150px;
+}
+
+.imgkuang:hover img {
+    transform: scale(0.95);
+    transition: .5s all;
+}
+
+.imgkuang:hover {
+    transform: translate(0px, -10px) scale(0.99);
+    transition: .5s all;
+}
+
+.imgkuang:hover>.wenzhang {
+    transform: translate(0px, 50px);
+    transition: .5s all;
+}
+
+.neirong p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #808080;
+}
+
+.xinwen {
+    background: url("http://demo.kangjingept.com:8020/cssthemes6/1125zh1/static/image/s3bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.xinwen em::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 197px;
+    background: url(http://demo.kangjingept.com:8020/cssthemes6/1125zh1/static/image/prev.png) no-repeat;
+}
+
+.xinwen em::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    right: 180px;
+    background: url(http://demo.kangjingept.com:8020/cssthemes6/1125zh1/static/image/next.png) no-repeat;
+}
+
+
+/* 底部 */
+
+.dibu {
+    background: #1b1f27;
+    height: 180px;
+}
+
+.dibu>div:nth-child(1) {
+    padding: 20px;
+}
+
+.dibu::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    display: block;
+    position: absolute;
+    top: 100px;
+}
+
+.dibu p {
+    margin-left: 20px;
+    color: #5f6376;
+}
+
+.logo1 {
+    display: none;
+}
+
+
+/* 多媒体查询 */
+
+@media screen and (min-width:375px) and (max-width:415px) {
+    .nav {
+        background-size: 100%;
+        height: 176px;
+    }
+    .nav>div:nth-child(1)>div:nth-child(1) {
+        width: 100%;
+    }
+    .nav>div:nth-child(3) {
+        position: absolute;
+        top: 33%;
+        left: 18px;
+        width: 90%;
+        justify-content: space-between;
+    }
+    .nav>div:nth-child(3)>div:nth-child(2) {
+        visibility: hidden;
+    }
+    .nav>div:nth-child(3)>div:nth-child(3) {
+        right: 0;
+    }
+    .nav a {
+        display: block;
+        width: 100px;
+        height: 107px;
+        line-height: 100px;
+    }
+    .logo {
+        width: 100%;
+        margin: 12px 10px;
+    }
+    .logo1 {
+        display: block;
+        position: absolute;
+        right: 42px;
+        top: 21px;
+    }
+    .nice {
+        display: none !important;
+    }
+    .nice+div {
+        display: none !important;
+    }
+    .d {
+        display: none !important;
+    }
+    /* 中段 */
+    .hui,
+    .zhongjian {
+        width: 100%;
+        height: 677px;
+    }
+    .zhongjian {
+        height: 0 !important;
+    }
+    .zhongjian .banner {
+        width: 80%;
+        left: 12.1%;
+        top: 1%;
+        height: 600px;
+        margin-top: 31px;
+    }
+    .zhongjian .banner>div {
+        width: 150px;
+        height: 150px;
+    }
+    .bac>div {
+        font-size: 9px;
+        margin: 0;
+        line-height: 29px;
+    }
+    .dis {
+        line-height: 1;
+        font-size: 10px;
+    }
+    .dis>h2 {
+        position: absolute;
+        top: 37px;
+        left: 16px;
+    }
+    .dis em {
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        top: 58px;
+        left: 65px;
+        transition: 1s all;
+    }
+    .hei {
+        width: 120px;
+        height: 120px;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        animation: hei 0.5s;
+        font-size: 12px;
+        display: block;
+    }
+    .hei h2 {
+        top: 40px;
+        margin: 0;
+        font-size: 6px;
+    }
+    /* 关于我们 */
+    .bei1 {
+        position: relative;
+        background: none;
+        padding: 10px 16px;
+        height: 535px;
+    }
+    .guanyu {
+        top: 678px;
+    }
+    .about {
+        width: 350px;
+        text-align: left;
+        line-height: 33px;
+        position: absolute;
+        top: 0;
+        left: 14px;
+        color: #00acfa;
+    }
+    .about>div:nth-child(3) {
+        width: 100%;
+        height: 236px;
+        overflow: hidden;
+    }
+    .about>div:nth-child(4) {
+        margin-top: 160px;
+        margin-left: -45px;
+    }
+    .about+div {
+        width: 92%;
+        height: 180px;
+        left: 14px;
+        top: 360px;
+    }
+    .about+div em {
+        width: 40px;
+    }
+    /* 主体旅游 */
+    .lv {
+        position: relative;
+        top: 674px;
+    }
+    .er {
+        height: 211px !important;
+        top: 674px !important;
+    }
+    .menban>.zhonhjian {
+        width: 200px;
+        font-size: 10px;
+        top: 23px;
+        left: 88px;
+    }
+    .xinwen {
+        background-image: none;
+        background-color: #ffffff;
+        height: 580px !important;
+        top: 674px;
+        overflow: hidden;
+    }
+    .newtitle {
+        width: 100% !important;
+    }
+    .newimgs {
+        display: inline-block !important;
+        width: 100%;
+        height: 480px !important;
+    }
+    .imgkuang {
+        width: 100%
+    }
+    .wenzhang {
+        width: 100% !important;
+        height: 200px;
+        margin: 0;
+    }
+    .wenzhang>.neirong {
+        width: 90%;
+        height: 100px;
+    }
+    .dibu {
+        top: 676px;
+    }
+    .dibu>div:nth-child(1) {
+        margin-left: 98px;
+    }
+}

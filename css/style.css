@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.back-color-w {
+    background-color: #ffffff;
+}
+
+.por {
+    position: relative;
+}
+
+.poabs {
+    position: absolute;
+}
+
+.p-h-100 {
+    padding: 100px 0;
+}
+
+.padding-100 {
+    padding: 100px;
+}
+
+.m-l-10 {
+    margin: 0 10px;
+}
+
+.jscet {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.jsabw {
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.jssad {
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.alcent {
+    align-items: center
+}
+
+.alcstart {
+    align-content: start;
+}
+
+.flex-dir-column {
+    flex-direction: column;
+}
+
+.W100 {
+    width: 100%;
+}
+
+.W80 {
+    width: 80%;
+}
+
+.W70 {
+    width: 70%;
+}
+
+.W64 {
+    width: 64%;
+}
+
+.W50 {
+    width: 50%;
+}
+
+.W48 {
+    width: 48%;
+}
+
+.W28 {
+    width: 28%;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.w500 {
+    width: 500px;
+}
+
+.w700 {
+    width: 700px;
+}
+
+.w1000 {
+    width: 1000px;
+}
+
+.w1500 {
+    width: 1500px;
+}
+
+.w1200 {
+    width: 1200px;
+}
+
+.H100 {
+    height: 100%;
+}
+
+.H80 {
+    height: 80%;
+}
+
+.h1000px {
+    height: 1000px;
+}
+
+.h300px {
+    height: 300px;
+}
+
+.h500px {
+    height: 500px;
+}
+
+.h100px {
+    height: 100px;
+}
+
+.h700px {
+    height: 700px;
+}
+
+.h400px {
+    height: 400px;
+}
+
+.h200px {
+    height: 200px;
+}
+
+.h800px {
+    height: 800px;
+}
+
+.h180px {
+    height: 180px;
+}
+
+.fwwar {
+    flex-wrap: wrap;
+}
+
+.back-color-red {
+    background-color: red;
+}
+
+.back-color-hui {
+    background-color: #6B7A8A;
+}
+
+.back-color-hei {
+    background-color: black;
+}
+
+.font-color-w {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.marg-top-100px {
+    margin-top: 100px;
+}
+
+.text-al-cent {
+    text-align: center;
+}
+
+.marg-0-auto {
+    margin: 0 auto;
+}
+
+.footer-1 input[type="text"] {
+    border: none;
+    width: 400px;
+    height: 80px;
+    outline: none;
+}
+
+.footer-1 input[type="submit"] {
+    position: relative;
+    border: none;
+    width: 100px;
+    height: 80px;
+    outline: none;
+    left: -154px;
+}
+
+input {
+    border: none;
+}
+
+.z-99 {
+    z-index: 99;
+}
+
+.z-10 {
+    z-index: 10;
+}
